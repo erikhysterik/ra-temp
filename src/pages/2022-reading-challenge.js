@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const ChallengePage = () => (
   <Layout>
     <h1>2022 Reading Challenges</h1>
-    <p>Available as a downloadable PDF</p>
+    <p>Available as downloadable PDFs</p>
     <div>
       <a href = {"/2022_Reading_Challenge.pdf"} target="_blank" rel="noopener noreferrer">Reading Challenge</a>
     </div>
