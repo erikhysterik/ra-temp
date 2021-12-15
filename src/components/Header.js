@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import { Link } from 'gatsby'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <a href = {"/Test_PDF.pdf"} target="_blank" rel="noopener noreferrer"><i className="icon fa-book"></i></a>
+       <span className="icon fa-book"></span>
     </div>
     <div className="content">
       <div className="inner">
@@ -12,12 +13,18 @@ const Header = props => (
         <p>
           Stay tuned!
         </p>
+        <p>2022 Reading Challenge Now available</p>
       </div>
     </div>
-    <div className="logo">
-      <a href = "https://www.facebook.com/groups/1822973164691357"><i className="icon fa-facebook-square"></i></a>
-    </div>
-
+    <nav>
+      <ul>
+        <li>
+          <Link to="/2022-reading-challenge">
+          2022 Reading Challenge
+          </Link>
+        </li>
+      </ul>
+    </nav>
   </header>
 )
 

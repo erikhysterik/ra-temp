@@ -3,6 +3,12 @@ import PropTypes from 'prop-types'
 
 const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
+        <p className="copyright">
+            On Facebook:
+            <a href = "https://www.facebook.com/groups/1822973164691357">
+                <i className="icon fa-facebook-square"></i>
+            </a>
+        </p>
         <p className="copyright">Design: <a href="https://html5up.net">HTML5 UP</a>. Built with: <a href="https://www.gatsbyjs.org/">Gatsby.js</a></p>
     </footer>
 )
