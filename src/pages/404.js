@@ -4,7 +4,7 @@ import RedirectHome from '../components/RedirectHome'
 
 const NotFoundPage = () => (
   <Layout>
-    <RedirectHome target={ this.props.location } />
+    <RedirectHome />
   </Layout>
 )
 
