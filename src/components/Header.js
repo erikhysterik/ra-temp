@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-       <span className="icon fa-book"></span>
+       <Link className="icon fa-book" to="/2022-reading-challenge"></Link>
     </div>
     <div className="content">
       <div className="inner">
@@ -13,18 +13,14 @@ const Header = props => (
         <p>
           Stay tuned!
         </p>
-        <p>2022 Reading Challenge Now available</p>
+        <p>2022 Reading Challenge now available, follow the book!</p>
       </div>
     </div>
-    <nav>
-      <ul>
-        <li>
-          <Link to="/2022-reading-challenge">
-          2022 Reading Challenge
-          </Link>
-        </li>
-      </ul>
-    </nav>
+    <div className="logo">
+       <a href = "https://www.facebook.com/groups/1822973164691357">
+          <i className="icon fa-facebook-square"></i>
+       </a>
+    </div>
   </header>
 )
 
