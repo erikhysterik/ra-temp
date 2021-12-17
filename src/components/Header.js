@@ -10,10 +10,11 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>Reshelving Alexandria</h1>
-        <p>
-          Stay tuned!
-        </p>
-        <p>2022 Reading Challenge now available, follow the book!</p>
+        <h3>
+          Welcome, home library lovers!
+        </h3>
+        <p>Click the book above &amp; download all 5 of our 2022 Reading Challenges for kids, teens, adults, and families!</p>
+        <p>Join our <a href="https://www.facebook.com/groups/350895429031188">RA Reads</a> group for inspiration and encouragement throughout the year!</p>
       </div>
     </div>
     <div className="logo">

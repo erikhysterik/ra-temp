@@ -19,6 +19,9 @@ const ChallengePage = () => (
     <div>
       <a href = {"/2022_Kids_Reading_Challenge.pdf"} target="_blank" rel="noopener noreferrer">Kids Reading Challenge</a>
     </div>
+    <div>
+      <a href = {"/2022_Family_Reading_Challenge.pdf"} target="_blank" rel="noopener noreferrer">Family Reading Challenge</a>
+    </div>
     <p>
     </p>
     <Link to="/">Back to Home</Link>
