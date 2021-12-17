@@ -3,6 +3,7 @@ module.exports = {
     title: 'Reshelving Alexandria',
     author: 'Reshelving Alexandria',
     description: 'Coming Soon',
+    image: '/RAimg.png',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
