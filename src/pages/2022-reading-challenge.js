@@ -24,6 +24,12 @@ const ChallengePage = () => (
     </div>
     <p>
     </p>
+    <h2>Daily Reading Tracker</h2>
+    <div>
+      <a href = {"/2022_Reading_Challenges-Tracker.pdf"} target="_blank" rel="noopener noreferrer">Daily Reading Tracker</a>
+    </div>
+    <p>
+    </p>
     <Link to="/">Back to Home</Link>
   </Layout>
 )
