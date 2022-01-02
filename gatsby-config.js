@@ -4,7 +4,7 @@ module.exports = {
     author: 'Reshelving Alexandria',
     description: 'Coming Soon',
     image: '/RAimg.png',
-    siteUrl: 'https://reshelvingalexandria.com'
+    siteUrl: 'https://www.reshelvingalexandria.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -12,8 +12,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://reshelvingalexandria.com',
-        sitemap: 'https://reshelvingalexandria.com/sitemap/sitemap-index.xml',
+        host: 'https://www.reshelvingalexandria.com',
+        sitemap: 'https://www.reshelvingalexandria.com/sitemap/sitemap-index.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
