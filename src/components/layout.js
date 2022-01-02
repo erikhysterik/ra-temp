@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import raimg from '../images/RA.png'
 
 import '../assets/scss/main.scss'
 
@@ -43,9 +44,9 @@ const Layout = ({ children, location }) => {
             meta={[
               { name: 'description', content: 'Where home library builders gather' },
               { name: 'keywords', content: 'home library, reshelving' },
-              { name: 'image', content: '/raimg.png' },
-              { name: 'og:image', content: '/raimg.png' },
-              { name: 'twitter:image', content: '/raimg.png' },
+              { name: 'image', content: raimg },
+              { name: 'og:image', content: raimg },
+              { name: 'twitter:image', content: raimg },
               { name: 'og:description', content: 'Where home library builders gather' },
               { name: 'twitter:description', content: 'Where home library builders gather' },
             ]}
