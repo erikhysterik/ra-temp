@@ -44,6 +44,10 @@ const Layout = ({ children, location }) => {
               { name: 'description', content: 'Where home library builders gather' },
               { name: 'keywords', content: 'home library, reshelving' },
               { name: 'image', content: '/raimg.png' },
+              { name: 'og:image', content: '/raimg.png' },
+              { name: 'twitter:image', content: '/raimg.png' },
+              { name: 'og:description', content: 'Where home library builders gather' },
+              { name: 'twitter:description', content: 'Where home library builders gather' },
             ]}
           >
             <html lang="en" />
