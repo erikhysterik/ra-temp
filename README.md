@@ -1,4 +1,8 @@
-# gatsby-starter-dimension
+# ReshelvingAlexandria.com, using gatsby-starter-dimension
+
+**This site was built from a starter to learn Gatsby, SEO practices, and host Reading Challenge materials for the Reshelving Alexandria Facebook group: https://www.facebook.com/groups/reshelvingalexandria**
+
+**Hosted in Vercel and currently available at https://www.reshelvingalexandria.com**
 
 **This is a starter for Gatsby.js V2.**
 
