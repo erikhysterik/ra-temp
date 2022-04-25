@@ -21,6 +21,11 @@ const Header = props => (
     
     <ul className="icons">
             <li>
+              <a href="https://instagram.com/reshelvingalexandria?igshid=YmMyMTA2M2Y=" className="icon fa-instagram">
+                <span className="label">Instagram</span>
+              </a>
+            </li>
+            <li>
               <a href="https://www.facebook.com/groups/1822973164691357" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
@@ -31,11 +36,6 @@ const Header = props => (
                 className="icon fa-amazon"
               >
                 <span className="label">Amazon Affiliate</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://instagram.com/reshelvingalexandria?igshid=YmMyMTA2M2Y=" className="icon fa-instagram">
-                <span className="label">Instagram</span>
               </a>
             </li>
         </ul>
