@@ -15,13 +15,30 @@ const Header = props => (
         </h3>
         <p>Click the book above &amp; download all 5 of our 2022 Reading Challenges for kids, teens, adults, and families!</p>
         <p>Join our <a href="https://www.facebook.com/groups/350895429031188">RA Reads</a> group for inspiration and encouragement throughout the year!</p>
+        <p>Use of our Amazon affiliate link helps support making this project free to the public, many thanks.</p>
       </div>
     </div>
-    <div className="logo">
-       <a href = "https://www.facebook.com/groups/1822973164691357">
-          <i className="icon fa-facebook-square"></i>
-       </a>
-    </div>
+    
+    <ul className="icons">
+            <li>
+              <a href="https://www.facebook.com/groups/1822973164691357" className="icon fa-facebook">
+                <span className="label">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://amzn.to/3K8is3v"
+                className="icon fa-amazon"
+              >
+                <span className="label">Amazon Affiliate</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/reshelvingalexandria?igshid=YmMyMTA2M2Y=" className="icon fa-instagram">
+                <span className="label">Instagram</span>
+              </a>
+            </li>
+        </ul>
   </header>
 )
 
