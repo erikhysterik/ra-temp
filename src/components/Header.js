@@ -15,7 +15,7 @@ const Header = props => (
         </h3>
         <p>Click the book above &amp; download all 5 of our 2022 Reading Challenges for kids, teens, adults, and families!</p>
         <p>Join our <a href="https://www.facebook.com/groups/350895429031188">RA Reads</a> group for inspiration and encouragement throughout the year!</p>
-        <p>Use of our Amazon affiliate link helps support making this project free to the public, many thanks.</p>
+        <p>Coming soon: <a href="https://reshelvingalexandria.notion.site">Private Library</a>, a free resource for the RA community, hosted on the Notion platform!</p>
       </div>
     </div>
     
@@ -36,6 +36,14 @@ const Header = props => (
                 className="icon fa-amazon"
               >
                 <span className="label">Amazon Affiliate</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://reshelvingalexandria.notion.site"
+                className="icon fa-table"
+              >
+                <span className="label">Private Library</span>
               </a>
             </li>
         </ul>
