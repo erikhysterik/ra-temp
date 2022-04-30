@@ -5,7 +5,12 @@ import { Link } from 'gatsby'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-       <Link className="icon fa-book" to="/2022-reading-challenge"></Link>
+    <a
+                href="https://reshelvingalexandria.notion.site"
+                className="icon fa-table"
+              >
+                <span className="label">Private Library</span>
+              </a>
     </div>
     <div className="content">
       <div className="inner">
@@ -13,9 +18,9 @@ const Header = props => (
         <h3>
           Welcome, home library lovers!
         </h3>
-        <p>Click the book above &amp; download all 5 of our 2022 Reading Challenges for kids, teens, adults, and families!</p>
+        <p>Now available: <a href="https://reshelvingalexandria.notion.site">Private Catalogue</a>, a free library building resource for our community, hosted on the Notion platform!</p>
+        <p><Link to="/2022-reading-challenge">Download</Link> &amp; all 5 of our 2022 Reading Challenges for kids, teens, adults, and families!</p>
         <p>Join our <a href="https://www.facebook.com/groups/350895429031188">RA Reads</a> group for inspiration and encouragement throughout the year!</p>
-        <p>Coming soon: <a href="https://reshelvingalexandria.notion.site">Private Library</a>, a free resource for the RA community, hosted on the Notion platform!</p>
       </div>
     </div>
     
