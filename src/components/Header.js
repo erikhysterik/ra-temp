@@ -19,7 +19,7 @@ const Header = props => (
           Welcome, home library lovers!
         </h3>
         <p>Now available: <a href="https://reshelvingalexandria.notion.site">Private Catalogue</a>, a free library building resource for our community, hosted on the Notion platform!</p>
-        <p><Link to="/2022-reading-challenge">Download</Link> &amp; all 5 of our 2022 Reading Challenges for kids, teens, adults, and families!</p>
+        <p><Link to="/2022-reading-challenge">Download</Link> all 5 of our 2022 Reading Challenges for kids, teens, adults, and families!</p>
         <p>Join our <a href="https://www.facebook.com/groups/350895429031188">RA Reads</a> group for inspiration and encouragement throughout the year!</p>
       </div>
     </div>
